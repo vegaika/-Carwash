@@ -1,0 +1,656 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://adresnie-tablichki.ru/upload/category/bannery/avtomoyka/fon_dlya_avtomoyki_3.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+} 
+
+.header-logo {
+    margin: 20px 400px;
+}
+
+.logo__item {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    max-width: 100px;
+}
+
+.header-line {
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.nav-item {
+    padding-right: 70px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-item:hover {
+    color: orange;
+    transition: 0.5s;
+}
+
+.main__title {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.h4 {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 390px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn {
+    border: none;
+    width: 190px;
+    color: white;
+    background-color: #423189;
+    margin-top: 42px;
+    font-size: 15px;
+    border-radius: 50px;
+    padding: 17px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+    box-shadow: 0 0 52px yellow;
+}
+
+.container__about-us {
+    margin-top: 254px;
+    height: 964px;
+    background-color: white;
+}
+
+.main__about-us-title {
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 350px;
+    padding-top: 100px;
+}
+
+.mini-title {
+    color: gray;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    width: 503px;
+}
+
+.call {
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15px;
+}
+
+.img {
+    position: absolute;
+    margin-left: 600px;
+    top: 1000px;
+}
+
+.main__about-us-rate {
+    display: flex;
+    align-items: center;
+}
+
+.h3-rate {
+    display: flex;
+    align-items: center;
+    margin-top: 205px;
+    padding-right: 150px;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main__about-us-rate-images {
+    position: absolute;
+    align-items: center;
+    top: 1540px;
+    left: 360px;
+}
+
+.img-check-mark {
+    position: absolute;
+    align-items: center;
+    left: 280px;
+}
+
+.img-diamond {
+    position: absolute;
+    align-items: center;
+    top: 32px;
+    left: 590px;
+}
+
+.p-rate__one {
+    position: absolute;
+    color: gray;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    width: 220px;
+    top: 1715px;
+}
+
+.p-rate__two {
+    position: absolute;
+    color: gray;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    width: 290px;
+    top: 1715px;
+    right: 964px;
+}
+
+.p-rate__three {
+    position: absolute;
+    color: gray;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    width: 350px;
+    top: 1715px;
+    right: 577px;
+}
+
+.special__offers {
+    display: flex;
+    background-color: black;
+    min-height: 740px;
+}
+
+.special__offers-text {
+    position: relative;
+    left: 300px;
+    top: 120px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.offers-image__one {
+    position: relative;
+    border-radius: 6px;
+    right: 320px;
+    top: 225px;
+    z-index: 0;
+    opacity: 0.7;
+}
+
+.offers-image__two {
+    position: relative;
+    border-radius: 6px;
+    right: 300px;
+    top: 223px;
+    z-index: 0;
+    opacity: 0.7;
+}
+
+.h3-word-one {
+    position: relative;
+    top: 400px;
+    left: 330px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    z-index: 1;
+}
+
+.p-word-one {
+    position: relative;
+    left: 326px;
+    top: 413px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 500px;
+    z-index: 1;
+}
+
+.h3-word-two {
+    position: relative;
+    top: 280px;
+    left: 930px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    z-index: 1;
+}
+
+.p-word-two {
+    position: relative;
+    left: 926px;
+    top: 290px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 500px;
+    z-index: 1;
+}
+
+.our__services-main-cards {
+    display: flex;
+    background-color: rgb(232, 255, 255);
+    min-height: 2210px;
+    overflow: hidden;
+}
+
+.our__services-title {
+    position: relative;
+    left: 300px;
+    top: 120px;
+    font-size: 50px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.our__services-text {
+    position: relative;
+    width: 800px;
+    top: 131px;
+    left: 300px;
+    font-size: 18px;
+    color:#808080;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cards {
+    display: flex;
+    position: relative;
+    top: 10px;
+}
+
+.card-one {
+    position: relative;
+    margin-right: 30px;
+    right: 500px;
+    top: 300px;
+    border-radius: 10px;
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0 5px 30px black;
+}
+
+.img-headlights {
+    width: 100%;
+    padding: 15px;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+.price {
+    background-color: white;
+    color: black;
+    position: relative;
+    width: 150px;
+    border-radius: 5px;
+    padding: 10px;
+    top: -85px;
+    left: 30px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    z-index: 1;
+}
+
+.express__washing-title {
+    position: relative;
+    top: -45px;
+    left: 26px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.express__washing-text {
+    position: relative;
+    width: 500px;
+    top: -30px;
+    left: 26px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #696969;
+}
+
+.card-two {
+    position: relative;
+    right: 500px;
+    top: 300px;
+    border-radius: 10px;
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0 5px 30px black;
+}
+
+.img-eurocarwash {
+    width: 100%;
+    padding: 15px;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+.price-two {
+    background-color: white;
+    color: black;
+    position: relative;
+    width: 150px;
+    border-radius: 5px;
+    padding: 10px;
+    top: -85px;
+    left: 30px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    z-index: 1;
+}
+
+.eurocarwash-title-two {
+    position: relative;
+    top: -45px;
+    left: 26px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.eurocarwash-text-two {
+    position: relative;
+    width: 500px;
+    top: -30px;
+    left: 26px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #696969;
+}
+
+.card-three {
+    position: relative;
+    right: 1730px;
+    top: 800px;
+    border-radius: 10px;
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0 5px 30px black;
+}
+
+.img-cleaning-salon {
+    width: 100%;
+    padding: 15px;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+.price-three {
+    background-color: white;
+    color: black;
+    position: relative;
+    width: 150px;
+    border-radius: 5px;
+    padding: 10px;
+    top: -85px;
+    left: 30px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    z-index: 1;
+}
+
+.cleaning-salon-title-three {
+    position: relative;
+    top: -45px;
+    left: 26px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cleaning-salon-text-three {
+    position: relative;
+    width: 500px;
+    top: -30px;
+    left: 26px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #696969;
+}
+
+.card-four {
+    position: relative;
+    left: 630px;
+    top: -442px;
+    border-radius: 10px;
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0 5px 30px black;
+}
+
+.img-disk-repair {
+    width: 100%;
+    padding: 15px;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+.price-four {
+    background-color: white;
+    color: black;
+    position: relative;
+    width: 150px;
+    border-radius: 5px;
+    padding: 10px;
+    top: -85px;
+    left: 30px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    z-index: 1;
+}
+
+.cleaning-salon-title-four {
+    position: relative;
+    top: -45px;
+    left: 26px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cleaning-salon-text-four {
+    position: relative;
+    width: 500px;
+    top: -30px;
+    left: 26px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #696969;
+}
+
+.button {
+    position: relative;
+    width: 250px;
+    top: 70px;
+    right: 632px;
+    border: none;
+    background-color: #423189;
+    color: white;
+    font-size: 16px;
+    padding: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.footer {
+    position: relative;
+    left: 200px;
+}
+
+.footer-container {
+    margin-top: 100px;
+    position: relative;
+    top: 150px;
+    right: 950px;
+    background-color: white;
+    height: 900px;
+    width: 1900px;
+    align-items: center;
+}
+
+.contacts-h1 {
+    position: relative;
+    left: 350px;
+    top: 100px;
+    color: black;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contacts-p {
+    position: relative;
+    left: 350px;
+    top: 110px;
+    color: #696969;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.svg__phone-one {
+    position: relative;
+    top: 191px;
+    left: 352px;
+}
+
+.svg__location-one {
+    position: relative;
+    top: 236px;
+    left: 327px;
+}
+
+.svg__phone-two {
+    position: relative;
+    top: 374px;
+    left: 299px;
+}
+
+.svg__location-two {
+    position: relative;
+    top: 420px;
+    left: 273px;
+}
+
+.svg__phone-three {
+    position: relative;
+    top: 187px;
+    left: 693px;
+}
+
+.svg__location-three {
+    position: relative;
+    top: 233px;
+    left: 666px;
+}
+
+.svg__phone-four {
+    position: relative;
+    top: 370px;
+    left: 640px;
+}
+
+.svg__location-four {
+    position: relative;
+    top: 417px;
+    left: 615px;
+}
+
+
+.h3-tverskaya {
+    position: relative;
+    top: 120px;
+    left: 352px;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h3-sattelite {
+    margin-top: 80px;
+    position: relative;
+    top: 120px;
+    left: 352px;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+.h3-pushkin {
+    margin-top: 80px;
+    position: relative;
+    top: -249px;
+    left: 800px;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+.p-tverskaya {
+    position: relative;
+    top: 130px;
+    left: 388px;
+    line-height: 2;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.p-sattelite {
+    position: relative;
+    top: 130px;
+    left: 388px;
+    line-height: 2;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.p-pushkin {
+    position: relative;
+    top: -240px;
+    left: 835px;
+    line-height: 2;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
